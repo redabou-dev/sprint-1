@@ -189,6 +189,7 @@ main .statique .stat-text span {
 main .environnement {
     width: 50%;
     background-color: #F4F7FC;
+    height: 300px
 ;
 }
 main .campus {
@@ -259,6 +260,26 @@ main .imgs .text3 {
     font-weight: 100;
     border-radius: 9%;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+main .test .image-ifram {
+    width: 50%;
+}
+
+main .test .hero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+ul li a {
+    margin: 14px 8px;
+    padding: 14px 8px;
+}
+
 
 
 
