@@ -1,11 +1,14 @@
+
+
 body {
     padding: 0px;
     margin: 0px ;
+    box-sizing: border-box;
 }
 header {
        display: flex;
     align-items: center;
-    justify-content: space-between;  /* logo - nav - span يتوزعو */
+    justify-content: space-between;  
     padding: 0 20px;
 
 }
@@ -58,20 +61,20 @@ ul li a:hover {
 ul span {
     display: block;
 }
-article .img1 {
-    position: relative;
-}
-article img {
-    position: absolute;
-    right: 0;
-    width: 48%;
-    height: 50%;
-}
+ main .test{
+    display: flex;
+ }
 main .img2 {
     background-color: #08111D;
     padding-bottom: 175px;
     color: white;
     font-size: 30px;
+    width: 50%;
+    margin: 0;
+}
+
+main .test .hero {
+    height: 100%;
 }
 main .img2 .p1 {
     font-size: 20px;
@@ -103,6 +106,37 @@ font-size: 24px;
 color: white;
 width: fit-content;
 
+}
+main .community {
+    margin-top: 84px;
+    display: flex;
+    gap: 24px;
+}
+main .test .les-cercles {
+    display: flex;
+    margin-left: 0px;
+}
+main .community .cercle13 {
+    background-color: rgb(154, 213, 229);
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 0px;
+}
+main .community .cercle24 {
+        justify-content: center;
+    align-items: center;
+        background-color: rgb(229, 236, 193);
+            width: 50px;
+    height: 50px;
+          border-radius: 50%;
+          display: flex;
+}
+main .community .community-text {
+    font-size: 14px;
 }
 .boutton {
     display: flex;
@@ -152,19 +186,86 @@ main .statique .stat-text span {
     font-size: 12px;
     color: #666;
 }
-/* @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
+main .environnement {
+    width: 50%;
+    background-color: #F4F7FC;
+;
+}
+main .campus {
+    color: blue;
+}
+main .p2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+main .p3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+main .section2 {
+    position: relative;
+}
+main .imgs {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    background-color:  #F4F7FC;
+    width: 50%;
+    height: 95%;
+    overflow: hidden;
+}
+main .imge3 {
+    position: absolute;
+    right: 25%;
+    transform: rotate(8deg);
+}
+main .imge2 {
+    transform: rotate(8deg);
+    display: inline-block;
 
-    .navigation {
-        flex-direction: column;
-        width: 100%;
-    }
+}
+main .imge1 {
+    transform: rotate(-8deg);
+    display: inline-block;
+}
+main .imgs .text1 {
+    background-color: black;
+    position: absolute;
+        right: 1px;
+    bottom: -3px;
+    color: white;
+    width: fit-content;
+    font-weight: 100;
+    width: 100%;
+    border-radius: 9%;
+}
+main .imgs .text2 {
+       background-color: black;
+    position: absolute;
+        right: 1px;
+    bottom: -3px;
+    color: white;
+    width: 100%;
+    font-weight: 100;
+    border-radius: 9%;
+}
+main .imgs .text3 {
+     background-color: black;
+    position: absolute;
+        right: 1px;
+    bottom: -3px;
+    color: white;
+    width: 100%;
+    font-weight: 100;
+    border-radius: 9%;
+}
 
-    ul li {
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-} */
+
+
+
+
+
+
+
+
+
