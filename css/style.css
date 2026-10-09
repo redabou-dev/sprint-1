@@ -4,6 +4,7 @@ body {
     padding: 0px;
     margin: 0px ;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 header {
        display: flex;
@@ -219,6 +220,7 @@ main .imge3 {
     position: absolute;
     right: 25%;
     transform: rotate(8deg);
+    width: 25%;
 }
 main .imge2 {
     transform: rotate(8deg);
@@ -279,9 +281,84 @@ ul li a {
     margin: 14px 8px;
     padding: 14px 8px;
 }
+main .yjourney {
+    background-color: #08111D;
+        padding: 28px 64px 34px;
+}
+main .yjourney h3 {
+color: white;
+margin: 0;
+}
+main .yjourney .journey-text {
+    color: white;
+    font-size: 14px;
+}
+main .yjourney .youcode-first {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+main .yjourney .img1 {
+    background-color: #034BFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .img22{
+    background-color: #034BFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .num22 {
+    position: absolute;
+    color: white;
+    margin-bottom: 90px;
+}
 
+main .yjourney .img3 {
+     background-color: #04B886;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .img4 {
+     background-color: #6744FF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .img5 {
+     background-color: #6744FF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
-
+main .yjourney .img6 {
+           background-color: #C7F64A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 
 

@@ -4,6 +4,7 @@ body {
     padding: 0px;
     margin: 0px ;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 header {
        display: flex;
@@ -61,10 +62,33 @@ ul li a:hover {
 ul span {
     display: block;
 }
+main .first-p {
+    color: blue;
+    margin-left: 30px;
+}
+main .heading {
+    margin-left: 30px;
+}
 main form .inpute {
     width: 50%;
-    border: 2px solid black;
-    border-radius: 3%;
-    margin-left: 20px;
-    height: 20px;
+
+    border: 2px solid #b9acac;
+    border-radius: 6%;
+    margin-left: 50px;
+    height: 39px;
+}
+main form .labell {
+    margin-left: 50px;
+}
+main form .radioo {
+    margin-left: 50px;
+}
+main form .bottone input {
+    margin-left: 46px;
+    background-color: #5E5BFF;
+    width: 50%;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
 }
