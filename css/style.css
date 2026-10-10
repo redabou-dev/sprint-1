@@ -294,9 +294,10 @@ main .yjourney .journey-text {
     font-size: 14px;
 }
 main .yjourney .youcode-first {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 main .yjourney .img1 {
     background-color: #034BFF;
@@ -358,6 +359,11 @@ main .yjourney .img6 {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+main .yjourney .dots {
+    color: #444;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 

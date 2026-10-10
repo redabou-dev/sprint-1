@@ -62,44 +62,51 @@ ul li a:hover {
 ul span {
     display: block;
 }
-main .first-p {
+ .les_campus .sous-titre {
     color: blue;
-    margin-left: 30px;
-}
-main .heading {
-    margin-left: 30px;
-}
-main form .inpute {
-    width: 50%;
+    margin-left: 50px;
 
-    border: 2px solid #b9acac;
-    border-radius: 3%;
+}
+ .les_campus h1 {
     margin-left: 50px;
-    height: 50px;
-}
-main form .inpute:hover {
-    background-color: #d4d4d4;
-}
-main form .labell {
+ }
+ .les_campus .campus-safi {
     margin-left: 50px;
-}
-main form .radioo {
+    color: blue;
+ }
+ .les_campus .three-campus p {
+    margin-left: 20px;
+ }
+  .les_campus .safi {
+    border: 2px solid gray;
+    width: fit-content;
+    margin-left: 30px;
+    border-radius: 2%;
+  }
+    .les_campus .yousoufia {
+    border: 2px solid gray;
+    width: fit-content;
+     border-radius: 2%;
+  }
+    .les_campus .nador {
+    border: 2px solid gray;
+    width: fit-content;
+    margin-right: 30px;
+     border-radius: 2%;
+  }
+   .les_campus .campus-yousoufia {
     margin-left: 50px;
-}
-main form .bottone input {
-    margin-left: 46px;
-    background-color: #5E5BFF;
-    width: 50%;
-    height: 50px;
-    color: white;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-main form .bottone input:hover {
-    color: gray;
-}
-footer {
+    color: blue;
+ }
+  .les_campus .campus-nador {
+    margin-left: 50px;
+    color: blue;
+ }
+  .les_campus .three-campus {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer {
     background-color: black;
     height: 250px;
   }
