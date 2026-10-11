@@ -379,8 +379,9 @@ main .yjourney .dots {
 main .event .para {
     background-color: blue;
     width: 330px;
-    border-radius: 3px;
+    border-radius: 14px;
     height: 260px;
+    margin-left: 10px;
 }
 main .event {
  background-color: #FFFFFF;   
@@ -548,6 +549,9 @@ footer {
     border-radius: 6px;
     width: 250px;
   }
+    footer .last .explor-campus:hover {
+        color: gray;
+    }
 
 
 
