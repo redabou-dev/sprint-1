@@ -284,92 +284,270 @@ ul li a {
 main .yjourney {
     background-color: #08111D;
         padding: 28px 64px 34px;
+        margin-bottom: 30px;
 }
 main .yjourney h3 {
-color: white;
-margin: 0;
-}
-main .yjourney .journey-text {
     color: white;
-    font-size: 14px;
+}
+main .yjourney p {
+    color: white;
 }
 main .yjourney .youcode-first {
-    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-main .yjourney .img1 {
-    background-color: #034BFF;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-main .yjourney .img22{
-    background-color: #034BFF;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-main .yjourney .num22 {
-    position: absolute;
+main .yjourney .youcode-first .numero {
     color: white;
-    margin-bottom: 90px;
+     width: 50px;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+main .yjourney .youcode-first .code {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #034BFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .youcode-first h4 {
+    color: white;
+    font-size: 15px;
+    margin: 14px 0 8px;
+}
+main .yjourney .youcode-first p {
+    color: #cbd5e1;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0; 
 }
 
-main .yjourney .img3 {
-     background-color: #04B886;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-main .yjourney .img4 {
-     background-color: #6744FF;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-main .yjourney .img5 {
-     background-color: #6744FF;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
 
-main .yjourney .img6 {
-           background-color: #C7F64A;
+
+main .yjourney .youcode-first .pawn {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    background-color: #034BFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .youcode-first .club{
+      width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #04B886;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .youcode-first .lightning{
+      width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #6744FF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .youcode-first .paraler{
+      width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #034BFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .yjourney .youcode-first .rock{
+      width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #C7F64A;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 main .yjourney .dots {
-    color: #444;
-    letter-spacing: 2px;
-    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
 }
+main .event .para {
+    background-color: blue;
+    width: 330px;
+    border-radius: 3px;
+    height: 260px;
+}
+main .event {
+ background-color: #FFFFFF;   
+}
+main .event .para-1 {
+    font-size: 12px;
+    margin-left: 20px;
+    color: white;
+}
+main .event .para-2 {
+    font-size: 24px;
+     color: white;
+      margin-left: 20px;
+}
+main .event .para-3 {
+    font-size: 14px;
+     color: white;
+      margin-left: 20px;
+}
+main .event .para-4 {
+    font-size: 12px;
+     color: blue;
+     background-color: white;
+     width: 165px;
+     border-radius: 3px;
+     height: 25px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+      margin-left: 20px;
+}
+main .event .para-4:hover {
+    color: gray;
+}
+main .event {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+main .three-event {
+    display: flex;
+    justify-content: space-between;
+   flex: 1;
+}
+main .three-event .event-one {
+    border: 1px solid gray;
+    height: 260px;
+    margin-left: 40px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+main .three-event .one {
+    margin-left: 15px;
+}
+main .three-event .two {
+    margin-left: 15px;
+        margin-bottom: 16px;
+    margin-top: 38px;
+}
+main .three-event .event-two {
+     border: 1px solid gray;
+    height: 260px;
+     border-radius: 6px;
+}
+main .three-event .event-three {
+     border: 1px solid gray;
+    height: 260px;
+     border-radius: 6px;
+     margin-right: 40px;
+}
+main .three-event .savoir {
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2px;
+    width: 185px;
+    margin-left: 15px;
 
-
-
-
-
+}
+main .dernier {
+    background-color: #F4F7FC;
+    display: flex;
+    justify-content: space-between;
+}
+main .dernier .yassine {
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 10px;
+}
+main .dernier .promo {
+    font-size: 8px;
+    margin-left: 10px;
+}
+main .dernier .line {
+    border-left: 3px solid blue;
+}
+main .dernier .flech {
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 15px;
+}
+main .dernier .point {
+    color: blue;
+    margin-left: 160px;
+}
+footer {
+    background-color: black;
+    height: 250px;
+  }
+  footer .footerr {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .left-side {
+    color: white;
+    margin-left: 30px;
+  }
+  footer .midlle {
+    color: white;
+  }
+  footer .right-side {
+    color: white;
+    margin-right: 30px;
+  }
+  hr {
+    color: gray;
+  }
+  footer .left-paragraph {
+    color: white;
+    margin-left: 30px;
+  }
+  footer .right-paragraph {
+    color: white;
+    margin-right: 30px;
+  }
+  footer .les-paragraphes {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .midlle .explore {
+    color: yellowgreen;
+  }
+  footer .right-side .trouver {
+    color: yellowgreen;
+  }
+  footer .last {
+    margin-right: 50px;
+  }
+  footer .last .adventure {
+    color: yellowgreen;
+    font-size: 12px;
+  }
+  footer .last .explor-campus {
+    color:black ;
+    text-decoration: none;
+    background-color: yellowgreen;
+        height: 75px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    width: 250px;
+  }
 
 
 

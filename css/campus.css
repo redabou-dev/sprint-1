@@ -106,6 +106,70 @@ ul span {
     display: flex;
     justify-content: space-between;
   }
+  .les_campus .first-one {
+    font-size: 14px;
+    color: #5b5050;
+  }
+  .les_campus .second-one {
+    font-size: 14px;
+    color: #5b5050;
+  }
+  .les_campus .last-one {
+    font-size: 14px;
+    color: #5b5050;
+  }
+  main .espace {
+    color: blue;
+    font-size: 14px;
+  }
+  main .describe {
+    color: gray;
+  }
+  .first-section {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  main .all-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+    main .all-img img {
+      width: 100%;
+      display: block;
+      object-fit:cover ;
+
+    }
+      main .all-img .card-1 {
+        border: 1px solid gray;
+        border-radius: 3px;
+      }
+            main .all-img .card-2 {
+        border: 1px solid gray;
+        border-radius: 3px;
+      }
+            main .all-img .card-3 {
+        border: 1px solid gray;
+        border-radius: 3px;
+      }
+            main .all-img .card-4 {
+        border: 1px solid gray;
+        border-radius: 3px;
+      }
+      main .all-img .description-4 {
+        margin-left: 20px;
+      }
+     main .all-img .apprender {
+      color: blue;
+      font-size: 10px;
+     }
+     main .all-img .caption-1 {
+      color: gray;
+     }
+     main .first-section {
+      margin-bottom: 50px;
+      background-color: #F4F7FC;
+     }
   footer {
     background-color: black;
     height: 250px;
